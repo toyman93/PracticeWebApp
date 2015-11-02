@@ -1,6 +1,23 @@
+@font-face { font-family: Porter; src: url('Porter.ttf'); } 
+
 body, p{
 	margin:0px auto;
 	padding:0px;
+}
+
+#title{
+	width:100%;
+	height:100px;
+	border-bottom:3px solid;
+}
+
+#title h1{
+	font-family:Porter;
+	font-size: 36px;
+	line-height:100px;
+	margin:0px;
+	padding-left: 20px;
+	text-align: center;
 }
 
 #navbar{
@@ -23,6 +40,14 @@ body, p{
 	line-height:30px;
 	text-align: center;
 	float:left;
+	font-family:Porter;
+}
+
+#navLeft ul li a{
+	font-weight: bold;
+	text-decoration: none;
+	padding:10px;
+	color:white;
 }
 
 #navRight{
@@ -41,12 +66,14 @@ body, p{
 	line-height: 30px;
 	text-align: center;
 	float:right;
+	font-family:Porter;
 }
 
-#navLeft ul li a{
+#navRight ul li a{
 	font-weight: bold;
 	text-decoration: none;
 	padding:10px;
+	color:white;
 }
 
 #bigScreen{
@@ -55,9 +82,10 @@ body, p{
 	background-image: url("bigScreen.jpg");
 	background-repeat:no-repeat;
 	background-size: 100% 100%;
+	float:right;
+	border-bottom:3px solid;
 }
 
-#title{
-	width:100%;
-	height:100px;
+.line{
+	
 }
