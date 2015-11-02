@@ -10,12 +10,19 @@ body, p{
 	height:100px;
 }
 
-#title h1{
+h1.style-one{
 	font-family:Porter;
 	font-size: 36px;
 	line-height:100px;
-	margin:0px;
-	padding-left: 20px;
+	margin:0px auto;
+	text-align: center;
+}
+
+h2.style-one{
+	font-family:Porter;
+	font-size: 24px;
+	line-height:60px;
+	margin:0px auto;
 	text-align: center;
 }
 
@@ -92,7 +99,7 @@ body, p{
 }
 
 #topContainer{
-	height:400px;
+	height:450px;
 	width:600px;
 	margin: 0px auto;
 }
@@ -104,6 +111,13 @@ hr.style-one {
     margin-left:0px auto;
     margin-right:0px auto;
     margin-top:0px;
-    margin-bottom:40px;
+    margin-bottom:30px;
     width:800px;
+}
+
+.content{
+	width:800px;
+	height:800px;
+	display:block;
+	margin: 0px auto;
 }
