@@ -121,3 +121,15 @@ hr.style-one {
 	display:block;
 	margin: 0px auto;
 }
+
+#brand{
+	float:left;
+	text-align:left;
+	height: 40px;
+	line-height: 40px;
+}
+
+#brand a{
+	font-weight:bold;
+	background-color:black;
+}
