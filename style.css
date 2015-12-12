@@ -5,6 +5,12 @@ body, p{
 	padding:0px;
 }
 
+.porterFont{
+	font-family:Porter;
+	font-weight: bold;
+	font-size: 16px;
+}
+
 #title{
 	width:100%;
 	height:100px;
@@ -24,68 +30,6 @@ h2.style-one{
 	line-height:60px;
 	margin:0px auto;
 	text-align: center;
-}
-
-#navbar{
-	width:100%;
-	height: 30px;
-	background-color:#000000;
-}
-
-#navContainer{
-	width:800px;
-	height:30px;
-	margin:0px auto;
-}
-#navLeft{
-	
-}
-
-#navLeft ul{
-	margin:0px;
-	padding:0px;
-	list-style-type: none;
-}
-#navLeft ul li{
-	width:100px;
-	height:30px;
-	line-height:30px;
-	text-align: center;
-	float:left;
-	font-family:Porter;
-}
-
-#navLeft ul li a{
-	font-weight: bold;
-	text-decoration: none;
-	padding:10px;
-	color:white;
-}
-
-#navRight{
-	
-}
-
-#navRight ul{
-	margin:0px;
-	padding:0px;
-	list-style-type:none;
-}
-
-#navRight ul li{
-	width:100px;
-	height:30px;
-	line-height: 30px;
-	text-align: center;
-	float:right;
-	font-family:Porter;
-}
-
-#navRight ul li a{
-	font-weight: bold;
-	text-decoration: none;
-	padding:10px;
-	color:white;
 }
 
 #bigScreen{
@@ -130,6 +74,26 @@ hr.style-one {
 }
 
 #brand a{
-	font-weight:bold;
-	background-color:black;
+	padding: 15px;
+	color:white;
+	display:inline;
+}
+
+#navElements ul{
+	margin:0px;
+	padding:0px;
+	list-style-type: none;
+}
+
+#navElements ul li{
+	float: right;
+	height: 40px;
+	line-height: 40px;
+}
+
+#navElements ul li a{
+	text-decoration: none;
+	padding:15px;
+	color:white;
+	display:inline;
 }
