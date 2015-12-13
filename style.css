@@ -17,6 +17,8 @@ body, p{
 	background-repeat:no-repeat;
 	background-image: url("bigScreen.jpg");
 	background-size: 100% 100%;
+	z-index: 20;
+    opacity:0.8;
 }
 
 .bigScreen.style-two{
@@ -25,6 +27,7 @@ body, p{
 	background-repeat:no-repeat;
 	background-image: url("content_one.jpg");
 	background-size: 100% 100%;
+	opacity:0.8;
 }
 
 hr.style-one {
