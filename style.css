@@ -12,23 +12,24 @@ body, p{
 }
 
 #bigScreen{
-	height: 600px;
+	height: 100%;
 	width: auto;
 	background-image: url("bigScreen.jpg");
 	background-repeat:no-repeat;
 	background-size: 100% 100%;
+	border-bottom: 2px solid black;
 }
-
 
 hr.style-one {
     border: 0;
-    border-bottom: 1px dashed #ccc;
+    border-bottom: 2px solid white;
     background: #999;
     margin-left:0px auto;
     margin-right:0px auto;
     margin-top:0px;
-    margin-bottom:30px;
-    width:800px;
+    margin-bottom:20px;
+    width:70%;
+
 }
 
 #brand{
@@ -61,4 +62,33 @@ hr.style-one {
 	padding:15px;
 	color:white;
 	display:inline;
+}
+
+.intro-message{
+	padding-top:20%;
+	padding-bottom:20%;
+}
+
+.intro-message h1{
+	text-align: center;
+	font-size:64px; 
+	color:white;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.social-buttons ul{
+	margin:auto;
+	list-style-type: none;
+	text-align:center;
+}
+
+.social-buttons ul li{
+	margin:0px 10px 0px 10px;
+	display:inline-block;
+	width: 120px;
+}
+
+.social-buttons ul li a{
+	text-decoration: none;
+	color:black;
 }
