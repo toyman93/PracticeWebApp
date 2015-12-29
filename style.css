@@ -1,4 +1,5 @@
-@font-face { font-family: Porter; src: url('Porter.ttf'); } 
+@font-face { font-family: Porter; src: url('Fonts/Porter.ttf'); }
+@font-face { font-family: Keep-Calm; src: url('Fonts/KeepCalm-Medium.ttf');}
 
 body, p{
 	margin:0px auto;
@@ -109,8 +110,13 @@ hr.style-one {
 }
 
 .section-heading{
-	padding: 30px 5px 10px 20px;
+	padding: 30px 5px 10px 30px;
+	font-family: Keep-Calm;
 }
 .section-heading h1{
-
+	color: black;
+}
+.section-heading p{
+	color: black;
+	line-height:180%;
 }
