@@ -26,6 +26,15 @@ body, p{
 	height: 100%;
 	width: auto;
 	background-repeat:no-repeat;
+	background-image: url("content_two.jpg");
+	background-size: 100% 100%;
+	opacity:0.8;
+}
+
+.bigScreen.style-three{
+	height: 100%;
+	width: auto;
+	background-repeat:no-repeat;
 	background-image: url("content_one.jpg");
 	background-size: 100% 100%;
 	opacity:0.8;
