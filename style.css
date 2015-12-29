@@ -110,7 +110,7 @@ hr.style-one {
 }
 
 .section-heading{
-	padding: 80px 5px 10px 30px;
+	padding: 95px 5px 10px 30px;
 }
 .section-heading h1{
 	color: black;
@@ -123,6 +123,7 @@ hr.style-one {
 	font-size: 20px;
 }
 
-.section-heading-image{
-	border:3px solid black;
+.section-heading-img img{
+	border:2px solid black;
+	margin-top: 100px;
 }
